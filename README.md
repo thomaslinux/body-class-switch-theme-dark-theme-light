@@ -17,7 +17,9 @@ Et le bouton d'installation vous invitera à installer une extension compatible 
 
 ## 0. La problématique, identifier le besoin
 
-La page est en thème sombre par défaut, sans aucun moyen de le changeret et aucun userstyle n'existe pour avoir un thème clair.
+**Problème** : Sur la page de lecture des livres ENI, le thème sombre est forcé par défaut, et aucun bouton n'est présent dans l'interface pour passer en thème clair. Aucun userstyle n'existe pour avoir un thème clair sur userstyles.world.
+
+**Besoin** : pouvoir passer du thème sombre au thème clair.
 
 ## 1. Inspecter la page, regarder les noms des class, identifier la logique
 
