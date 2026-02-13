@@ -5,6 +5,7 @@
 // @match       https://www.eni-training.com/*
 // @match       *://*/*
 // @grant       none
+// @icon        https://cdn-icons-png.flaticon.com/128/899/899724.png
 // @version     2026.02.13.09.56
 // @author      thomaslinux
 // @description switch class between theme-dark and theme-light classes on body on pages that uses class defined dark and light theme but implement no switch button
