@@ -3,7 +3,11 @@
 Un programme injectable (userscript) pour switch, via le raccourci Ctrl + Y,
 la class du body entre theme-dark et theme-light
 sur les pages web qui contiennent un theme-dark et un theme-light
-mais pas de bouton pour basculer entre les deux
+mais pas de bouton pour basculer entre les deux.
+
+Le script peut être installée depuis ce lien :
+
+https://greasyfork.org/fr/scripts/566164-body-class-switch-theme-dark-theme-light
 
 # Processus créatif
 
