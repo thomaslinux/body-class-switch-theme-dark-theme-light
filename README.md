@@ -23,7 +23,7 @@ Et le bouton d'installation vous invitera à installer une extension compatible 
 
 ## 1. Inspecter la page, regarder les noms des class, identifier la logique
 
-De nombreux sites resosent sur des frameworks pour leurss thèmes, bootstrap et tailwind sont les plus utilisés. Le site visé semble utiliser bootstrap d'après le nom des class sur les balises.
+De nombreux sites reposent sur des frameworks pour leurss thèmes, bootstrap et tailwind sont les plus utilisés. Le site visé semble utiliser bootstrap d'après le nom des class sur les balises.
 
 Le site contient une class theme-dark dans sa balise body. Si je change theme-dark en theme-light, la page passe en thème clair.
 
