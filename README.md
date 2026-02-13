@@ -5,19 +5,23 @@ la class du body entre theme-dark et theme-light
 sur les pages web qui contiennent un theme-dark et un theme-light
 mais pas de bouton pour basculer entre les deux.
 
+# Installation
+
 Le script peut être installée depuis ce lien :
 
 https://greasyfork.org/fr/scripts/566164-body-class-switch-theme-dark-theme-light
+
+Et le bouton d'installation vous invitera à installer une extension compatible avec des userscripts si vous n'en avez pas, à titre personnel j'utilise ViolentMonkey.
 
 # Processus créatif
 
 ## 0. La problématique, identifier le besoin
 
-La page est en thème sombre par défaut, sans aucun moyen de le changeret et aucun userstyle n'existe pour avoir un thème clair
+La page est en thème sombre par défaut, sans aucun moyen de le changeret et aucun userstyle n'existe pour avoir un thème clair.
 
 ## 1. Inspecter la page, regarder les noms des class, identifier la logique
 
-Pleins de sites se basent sur des frameworks pour les thèmes, bootstrap et tailwind sont les plus connus. Le site semble utiliser bootstrap d'après le nom des class sur les balises.
+De nombreux sites resosent sur des frameworks pour leurss thèmes, bootstrap et tailwind sont les plus utilisés. Le site visé semble utiliser bootstrap d'après le nom des class sur les balises.
 
 Le site contient une class theme-dark dans sa balise body. Si je change theme-dark en theme-light, la page passe en thème clair.
 
@@ -52,6 +56,8 @@ Je peux manipuler les chaînes de caractères avec .replace, il ne me reste plus
 ```javascript
 document.body.className = document.body.className.replace("theme-dark", "theme-light");
 ```
+
+Et comme on l'a dit plus haut, le thème existe déjà dans la page, on l'a repéré lors de l'inspection de page.
 
 ## 3. Basculer entre le thème sombre et le thème clair, écrire le userscript
 
@@ -97,7 +103,7 @@ Et inversement.
     });
 ```
 
-J'ajoute ensuite un EventListener sur la pression d'une touche 'keydown'
+J'ajoute ensuite un EventListener sur la pression d'une touche 'keydown'.
 Et si le raccourci est Ctrl + Y, je lance la fonction toggleTheme, ainsi Ctrl + Y permet de basculer entre le thème sombre et le thème clair.
 
 J'empacte tout :
