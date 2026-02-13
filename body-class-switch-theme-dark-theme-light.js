@@ -7,7 +7,7 @@
 // @grant       none
 // @version     2026.02.13.09.56
 // @author      thomaslinux
-// @description body-class-switch-theme-dark-theme-light
+// @description switch class between theme-dark and theme-light classes on body on pages that uses class defined dark and light theme but implement no switch button
 // ==/UserScript==
 // document.body.className = document.body.className.replace("theme-light","theme-dark")
 
