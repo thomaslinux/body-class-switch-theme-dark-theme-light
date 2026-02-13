@@ -102,6 +102,7 @@ J'empacte tout :
 window.onload = (function() {
 // mes fonctions
 })();
+```
 
 Et mon userscript permet maintenant de basculer entre theme-dark et theme-light, si la logique du thème est une class dans body.
 
