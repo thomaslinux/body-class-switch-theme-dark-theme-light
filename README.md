@@ -7,7 +7,7 @@ mais pas de bouton pour basculer entre les deux.
 
 # Installation
 
-Le script peut être installée depuis ce lien :
+Le script peut être installé depuis ce lien :
 
 https://greasyfork.org/fr/scripts/566164-body-class-switch-theme-dark-theme-light
 
