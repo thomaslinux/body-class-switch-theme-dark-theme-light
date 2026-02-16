@@ -4,7 +4,7 @@
 // @match       https://www.eni-training.com/portal/client/mediabook/home*
 // @match       https://www.eni-training.com/*
 // @grant       none
-// @version     2026.02.13.09.56
+// @version     2026.02.16.09.56
 // @author      thomaslinux
 // @description switch class between theme-dark and theme-light classes on body on pages that uses class defined dark and light theme but implement no switch button
 // ==/UserScript==
